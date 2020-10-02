@@ -1,0 +1,27 @@
+{
+  "name": "softwaredobem",
+  "version": "1.0.0",
+  "description": "Software do Bem - Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwaredobem/softwaredobem.git"
+  },
+  "keywords": [],
+  "author": "Software do Bem (@softwaredobem)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softwaredobem/softwaredobem/issues"
+  },
+  "homepage": "https://github.com/softwaredobem/softwaredobem#readme",
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

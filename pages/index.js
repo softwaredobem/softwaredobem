@@ -8,13 +8,16 @@ const Index = ({ projects }) => {
       <Head>
         <title>Software do Bem</title>
       </Head>
-      <h1 className="text-4xl font-bold shadow-lg rounded-md p-12 inline-block">
-        Sofware do Bem
+      <h1 className="bg-black text-4xl font-bold shadow-lg rounded-md p-12 inline-block">
+        <img src="/software-do-bem-logo.png" alt="Sofware do Bem" />
       </h1>
       <h2>Projetos:</h2>
       <ul>
         {projects.map(project => (
-          <li key={project.slug}>{project.title}</li>
+          <li key={project.slug}>
+            {project.title} {project.logo}
+            {project.logo && <img src={project.logo} />}
+          </li>
         ))}
       </ul>
     </div>
@@ -29,7 +32,8 @@ export async function getServerSideProps() {
     const meta = matter(content.default)
     projects.push({
       slug: project,
-      title: meta.data.name
+      title: meta.data.name,
+      logo: meta.data.logo ? meta.data.logo : ''
     })
   }
   return {

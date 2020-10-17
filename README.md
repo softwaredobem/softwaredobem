@@ -1,6 +1,8 @@
 # Software do Bem
 Software do Bem - Website
 
+![Proposed layout](.assets/Base-Layout.png?raw=true "Layout")
+
 ## Assets
 
 ### Brand/Logo

@@ -1,8 +1,10 @@
 # Software do Bem
 Software do Bem - Website
 
-## Assets:
+## Assets
 
-We already had designed a logo/brand for the project.
+### Brand/Logo
+https://drive.google.com/drive/folders/1KYwaK3f61Tk2ril7JejFbv_WtS8JXa2C?usp=sharing or in the `public` folder.
 
-https://drive.google.com/drive/folders/1KYwaK3f61Tk2ril7JejFbv_WtS8JXa2C?usp=sharing
+### Base layout
+https://www.figma.com/file/PwvDauvAvO9IxJQzaVYHGp/SoftwareDoBem-Home?node-id=0%3A1

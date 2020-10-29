@@ -3,3 +3,7 @@
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';
+
+.hero-background {
+  background: linear-gradient(90deg, #1c3fad 0.08%, #00acc1 100.63%);
+}

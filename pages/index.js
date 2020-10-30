@@ -54,7 +54,9 @@ const Index = ({ projects }) => {
         </ul>
       </div>
       <div>
-        Powered by: <img src="/vercel.svg" alt="Vercel" />
+        <a href="https://vercel.com/?utm_source=softwaredobem/softwaredobem&utm_campaign=oss">
+          Powered by: <img src="/vercel.svg" alt="Vercel" />
+        </a>
       </div>
     </>
   )

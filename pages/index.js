@@ -53,6 +53,9 @@ const Index = ({ projects }) => {
           ))}
         </ul>
       </div>
+      <div>
+        Powered by: <img src="/vercel.svg" alt="Vercel" />
+      </div>
     </>
   )
 }
